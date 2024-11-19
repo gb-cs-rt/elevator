@@ -31,7 +31,7 @@
         <mxCell id="ziPBh65_6T6LU6XHsN_v-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="346" y="55" width="10" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="ziPBh65_6T6LU6XHsN_v-8" value="exibeProximasParadas()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="1">
+        <mxCell id="ziPBh65_6T6LU6XHsN_v-8" value="exibirProximasParadas()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="261" y="114" as="geometry" />
         </mxCell>
         <mxCell id="ziPBh65_6T6LU6XHsN_v-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
@@ -52,7 +52,7 @@
             <mxPoint x="349.5" y="283" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ziPBh65_6T6LU6XHsN_v-13" value="exibeProximasParadas()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="1">
+        <mxCell id="ziPBh65_6T6LU6XHsN_v-13" value="exibirProximasParadas()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="261" y="270" as="geometry">
             <mxPoint x="-6" y="-3" as="offset" />
           </mxGeometry>
