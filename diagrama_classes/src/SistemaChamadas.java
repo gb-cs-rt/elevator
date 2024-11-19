@@ -18,20 +18,33 @@ public class SistemaChamadas {
         return "Foto tirada!";
     }
 
-    public void chamarElevador(int andar) {
-    for (AndarVIP andarVIP : andaresVIP) {
-        if (andarVIP.getAndar() == andar) {
-            String foto = tirarFoto();
-            BiometriaFacial biometriaFacial = new BiometriaFacial(foto);
-            if (andarVIP.verificarUsuario(biometriaFacial)) {
-                elevadores.get(0).proximosAndares.add(andar);
-            } else {
-                throw new IllegalArgumentException("Usuário não autorizado");
-            }
-        } else {
-            elevadores.get(0).proximosAndares.add(andar);
-        }
+    public void iniciarLogDaChamada() {
+        ;
     }
+
+    public void salvarLogDaChamada() {
+        ;
+    }
+
+    public void chamarElevador(int andar) {
+
+        iniciarLogDaChamada();
+        
+        for (AndarVIP andarVIP : andaresVIP) {
+            if (andarVIP.getAndar() == andar) {
+                String foto = tirarFoto();
+                BiometriaFacial biometriaFacial = new BiometriaFacial(foto);
+                if (andarVIP.verificarUsuario(biometriaFacial)) {
+                    elevadores.get(0).proximosAndares.add(andar);
+                } else {
+                    throw new IllegalArgumentException("Usuário não autorizado");
+                }
+            } else {
+                elevadores.get(0).proximosAndares.add(andar);
+            }
+        }
+
+        salvarLogDaChamada();
 }
 
 }
