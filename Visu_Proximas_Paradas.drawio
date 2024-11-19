@@ -1,9 +1,62 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.6">
   <diagram name="Página-1" id="hJlDGorYsllxjqWshyr9">
-    <mxGraphModel>
+    <mxGraphModel dx="673" dy="1283" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ziPBh65_6T6LU6XHsN_v-1" value="UC-12&lt;div&gt;Visualizar Próximas Paradas&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="255" y="-214" width="134" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="ziPBh65_6T6LU6XHsN_v-2" value=":Elevador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="90" y="-36" width="155" height="487" as="geometry" />
+        </mxCell>
+        <mxCell id="ziPBh65_6T6LU6XHsN_v-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ziPBh65_6T6LU6XHsN_v-2">
+          <mxGeometry x="73" y="113" width="9" height="326" as="geometry" />
+        </mxCell>
+        <mxCell id="ziPBh65_6T6LU6XHsN_v-4" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.435;entryY=0.68;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ziPBh65_6T6LU6XHsN_v-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="172" y="127" as="sourcePoint" />
+            <mxPoint x="349" y="127" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ziPBh65_6T6LU6XHsN_v-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="351" y="189" as="sourcePoint" />
+            <mxPoint x="351" y="29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ziPBh65_6T6LU6XHsN_v-6" value="Usuário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="336" y="-50" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ziPBh65_6T6LU6XHsN_v-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="346" y="55" width="10" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="ziPBh65_6T6LU6XHsN_v-8" value="exibeProximasParadas()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="261" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="ziPBh65_6T6LU6XHsN_v-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="468" y="453" as="sourcePoint" />
+            <mxPoint x="468" y="31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ziPBh65_6T6LU6XHsN_v-10" value="Sistema" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="453" y="-48" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ziPBh65_6T6LU6XHsN_v-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="463" y="57" width="10" height="376" as="geometry" />
+        </mxCell>
+        <mxCell id="ziPBh65_6T6LU6XHsN_v-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.029;entryY=0.599;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ziPBh65_6T6LU6XHsN_v-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="172.5" y="282" as="sourcePoint" />
+            <mxPoint x="349.5" y="283" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ziPBh65_6T6LU6XHsN_v-13" value="exibeProximasParadas()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="261" y="270" as="geometry">
+            <mxPoint x="-6" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
