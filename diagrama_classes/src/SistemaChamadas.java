@@ -26,6 +26,14 @@ public class SistemaChamadas {
         ;
     }
 
+    public void verificaAndarVip(int andar) {
+        for (AndarVIP andarVIP : andaresVIP) {
+            if (andarVIP.getAndar() == andar) {
+                throw new IllegalArgumentException("Andar VIP");
+            }
+        }
+    }
+
     public void chamarElevador(int andar) {
 
         iniciarLogDaChamada();
@@ -34,7 +42,7 @@ public class SistemaChamadas {
             if (andarVIP.getAndar() == andar) {
                 String foto = tirarFoto();
                 BiometriaFacial biometriaFacial = new BiometriaFacial(foto);
-                if (andarVIP.verificarUsuario(biometriaFacial)) {
+                if (andarVIP.verificarUsuario(new UsuarioComum("", "", biometriaFacial))) {
                     elevadores.get(0).proximosAndares.add(andar);
                 } else {
                     throw new IllegalArgumentException("Usuário não autorizado");

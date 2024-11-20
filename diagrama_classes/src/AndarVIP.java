@@ -21,9 +21,9 @@ public class AndarVIP {
         return usuario.getAndar() == this.andar;
     }
 
-    public boolean verificarUsuario(BiometriaFacial biometriaFacial) {
+    public boolean verificarUsuario(UsuarioComum usuarioComum) {
         for (UsuarioComum usuario : listaDeAcesso) {
-            if (usuario.getBiometriaFacial().equals(biometriaFacial)) {
+            if (usuario.equals(usuarioComum)) {
                 return true;
             }
         }

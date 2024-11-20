@@ -1,0 +1,69 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="7fl2-ZSV6QaIEvgjWsZY">
+    <mxGraphModel dx="1595" dy="1101" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YAKH-8tsJ9ISijEvY5ng-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;UC-12&lt;/font&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Visualizar Próximas&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Paradas&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-63" y="-110" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YAKH-8tsJ9ISijEvY5ng-10" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-159" y="-4" width="30" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="YAKH-8tsJ9ISijEvY5ng-8" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;endArrow=none;endFill=0;" parent="YAKH-8tsJ9ISijEvY5ng-10" source="YAKH-8tsJ9ISijEvY5ng-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="280.15455950540957" as="targetPoint" />
+            <mxPoint x="15" y="41.35728016282838" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAKH-8tsJ9ISijEvY5ng-9" value="" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;endArrow=none;endFill=0;" parent="YAKH-8tsJ9ISijEvY5ng-10" target="YAKH-8tsJ9ISijEvY5ng-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="243.02325581395345" as="targetPoint" />
+            <mxPoint x="15" y="83" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAKH-8tsJ9ISijEvY5ng-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="YAKH-8tsJ9ISijEvY5ng-10" vertex="1">
+          <mxGeometry x="10" y="221" width="10" height="20.09" as="geometry" />
+        </mxCell>
+        <mxCell id="YAKH-8tsJ9ISijEvY5ng-16" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;edgeStyle=none;startSize=8;endSize=8;curved=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-138.27" y="228" as="sourcePoint" />
+            <mxPoint x="94.73" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAKH-8tsJ9ISijEvY5ng-17" value="Visualiza as próximas paradas&lt;div&gt;no display interno do elevador&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" parent="YAKH-8tsJ9ISijEvY5ng-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.1181" y="1" relative="1" as="geometry">
+            <mxPoint x="7" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAKH-8tsJ9ISijEvY5ng-37" value=":Elevador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=14;align=center;" parent="1" vertex="1">
+          <mxGeometry x="18" y="13" width="162" height="268" as="geometry" />
+        </mxCell>
+        <mxCell id="YAKH-8tsJ9ISijEvY5ng-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;container=0;" parent="1" vertex="1">
+          <mxGeometry x="94.73" y="139" width="8.53" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LbxehNEgqRIp0G5gBdYb-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;container=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="146" width="8.53" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="LbxehNEgqRIp0G5gBdYb-2" value="" style="endArrow=classic;html=1;rounded=1;fontSize=12;startSize=8;endSize=8;curved=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109" y="154" as="sourcePoint" />
+            <mxPoint x="108" y="183" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="154" />
+              <mxPoint x="130" y="182" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbxehNEgqRIp0G5gBdYb-3" value="exibirProximasParadas()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="LbxehNEgqRIp0G5gBdYb-2">
+          <mxGeometry x="-0.0482" relative="1" as="geometry">
+            <mxPoint x="72" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAKH-8tsJ9ISijEvY5ng-3" value="Usuário&lt;br&gt;(Todos&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-159" y="-17" width="30" height="56.63" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
